@@ -6,10 +6,8 @@ int main() {
     int numberToGuess, userGuess, attempts = 0;
     const int maxAttempts = 10;
 
-    // Seed the random number generator
     srand(time(0));
 
-    // Generate a random number between 1 and 100
     numberToGuess = (rand() % 100) + 1;
 
     printf("Welcome to the Number Guessing Game!\n");
