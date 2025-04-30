@@ -34,4 +34,10 @@ This program implements a simple number guessing game in C. The goal of the game
    - If the player runs out of attempts, the game reveals the correct number and ends.
 
 ## Example Output
-
+Welcome to the Number Guessing Game!
+Enter your guess (1-100): 50 
+Too low. Try again. 
+Enter your guess (1-100): 75 
+Too high. Try again. 
+Enter your guess (1-100): 60
+Congratulations! You guessed the number in 3 attempts.
